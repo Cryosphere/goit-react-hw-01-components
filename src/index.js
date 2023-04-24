@@ -12,8 +12,8 @@ import data from './components/statistics/data.json';
 import { FriendList } from 'components/friend-list/FriendList';
 import friends from './components/friend-list/friends.json';
 
-import { TransactionHistory } from 'components/transaction-hystory/TransactionHystory';
-import items from './components/transaction-hystory/transactions.json';
+import { TransactionHistory } from 'components/transaction-history/TransactionHistory';
+import items from './components/transaction-history/transactions.json';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
